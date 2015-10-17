@@ -23,7 +23,8 @@
  */
 
 
-echo "This is Github";
+echo "Test 111111";
+
 if (!file_exists('./config.php')) {
     header('Location: install.php');
     die;
